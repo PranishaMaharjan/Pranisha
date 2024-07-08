@@ -1,0 +1,48 @@
+{
+  "validUser": {
+    "username": "student",
+    "password": "Password123"
+  },
+
+  "invalidUser": {
+    "invalidcredentials": {
+      "username": "incorrectUser",
+      "password": "incorrectPassword"
+    },
+
+    "invalidPassword": {
+      "username": "student",
+      "password": "incorrectPassword"
+    },
+
+    "invalidUsername": {
+      "username": "incorrectUser",
+      "password": "Password123"
+    },
+
+    "empty": {
+      "username": "",
+      "password": ""
+    },
+
+    "emptyUser": {
+      "username": "",
+      "password": "Password123"
+    },
+
+    "emptyPassword": {
+      "username": "student",
+      "password": ""
+    },
+
+    "userLeadingSpace": {
+      "username": "   student",
+      "password": "Password123"
+    },
+
+    "passwordLeadingSpace": {
+      "username": "student",
+      "password": "    Password123"
+    }
+  }
+}
